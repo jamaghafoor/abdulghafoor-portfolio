@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jordan Ellis — Senior React Native Engineer &amp; Team Lead</title>
+    <title>
+      Abdul Ghafoor — Senior Software Engineer &amp; Mobile Tech Lead
+    </title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
@@ -224,6 +226,25 @@
       a:focus-visible {
         outline: 2px solid var(--accent-teal);
         outline-offset: 3px;
+      }
+
+      .spinner {
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        border-radius: 50%;
+        border-top-color: var(--accent-gold);
+        animation: spin 1s ease-in-out infinite;
+      }
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .btn.loading {
+        pointer-events: none;
+        opacity: 0.8;
       }
 
       /* ============================================
@@ -1523,7 +1544,7 @@
 
     <header class="nav">
       <div class="nav-inner">
-        <a href="#top" class="nav-name">Jordan Ellis<span>.</span></a>
+        <a href="#top" class="nav-name">Abdul Ghafoor<span>.</span></a>
         <nav>
           <ul class="nav-links">
             <li><a href="#experience">Experience</a></li>
@@ -1534,7 +1555,11 @@
           </ul>
         </nav>
         <div class="nav-cta">
-          <a href="#" class="btn btn-ghost">Resume ↓</a>
+          <a
+            href="https://drive.google.com/uc?export=download&id=1iRBAV86xoRPTBUvTFAPPfF95EZIfN04h"
+            class="btn btn-ghost resume-btn"
+            >Resume ↓</a
+          >
           <button class="nav-toggle" aria-label="Toggle menu">☰</button>
         </div>
       </div>
@@ -1545,14 +1570,18 @@
       <section class="hero">
         <div class="wrap hero-grid">
           <div>
-            <div class="eyebrow">Open to senior / lead roles</div>
-            <h1>Jordan Ellis</h1>
-            <div class="role">Senior React Native Engineer — Team Lead</div>
+            <div class="eyebrow">
+              Open to senior IC &amp; tech lead roles — remote, hybrid or onsite
+            </div>
+            <h1>Abdul Ghafoor</h1>
+            <div class="role">Senior Software Engineer — Mobile Tech Lead</div>
             <p class="lede">
               I build cross-platform mobile products and the teams that ship
-              them — from architecture and native bridging to code review,
-              mentorship, and delivery. Currently leading engineering at
-              <strong style="color: var(--text-primary)">[Company Name]</strong
+              them — from architecture and native bridging to sprint planning,
+              code review, and App Store deployment. 20+ production apps shipped
+              across
+              <strong style="color: var(--text-primary)"
+                >iOS &amp; Android</strong
               >.
             </p>
             <div class="hero-actions">
@@ -1560,9 +1589,11 @@
               <a href="#contact" class="btn btn-ghost">Get in touch</a>
             </div>
             <div class="hero-meta">
-              <span><strong>8+ yrs</strong> React Native</span>
-              <span><strong>6</strong> engineers led</span>
-              <span><strong>[City, Country]</strong> · Remote friendly</span>
+              <span><strong>5+ yrs</strong> React Native</span>
+              <span><strong>20+</strong> apps shipped</span>
+              <span
+                ><strong>Remote · Hybrid · Onsite</strong> — open to all</span
+              >
             </div>
           </div>
 
@@ -1603,33 +1634,32 @@
               <div class="row">
                 <span class="prompt">$</span> years_experience<span
                   class="val"
-                  data-count="8"
+                  data-count="5"
                   data-suffix="+"
-                  >0</span
-                >
-              </div>
-              <div class="row">
-                <span class="prompt">$</span> team_led<span
-                  class="val"
-                  data-count="6"
-                  data-suffix=" engineers"
                   >0</span
                 >
               </div>
               <div class="row">
                 <span class="prompt">$</span> apps_shipped<span
                   class="val"
-                  data-count="4"
-                  data-suffix=" in production"
+                  data-count="20"
+                  data-suffix="+"
                   >0</span
                 >
               </div>
               <div class="row">
-                <span class="prompt">$</span> avg_rating<span
+                <span class="prompt">$</span> platforms<span
                   class="val"
-                  data-count="4.7"
-                  data-suffix=" ★"
-                  data-decimal="true"
+                  data-count="2"
+                  data-suffix=" (iOS &amp; Android)"
+                  >0</span
+                >
+              </div>
+              <div class="row">
+                <span class="prompt">$</span> ai_integrations<span
+                  class="val"
+                  data-count="3"
+                  data-suffix="+ AI APIs"
                   >0</span
                 >
               </div>
@@ -1645,27 +1675,29 @@
             <div class="eyebrow">About</div>
             <h2>Engineering craft, applied through people</h2>
             <p>
-              A short bio goes here — replace with your own story, what drew you
-              to mobile engineering, and how your approach to leadership
-              evolved.
+              Results-driven software engineer and tech lead with 5+ years of
+              experience architecting and delivering cross-platform mobile
+              products at scale.
             </p>
           </div>
           <div class="about-grid">
             <div class="reveal-left">
               <p>
-                [Placeholder bio paragraph.] I've spent the last eight years
-                building React Native applications end to end — from native
-                module integration to release pipelines — and the last three
-                leading a team of engineers doing the same. I care most about
-                shipping things that work reliably at scale, and about growing
-                engineers who can eventually do my job better than I do.
+                I specialise in building cross-platform mobile applications with
+                React Native and Expo, with deep expertise in native module
+                bridging, performance optimisation, and scalable architecture.
+                As a Tech Lead, I manage the full mobile engineering lifecycle —
+                from sprint planning and daily standups to cross-functional
+                collaboration with designers, backend engineers, and project
+                managers.
               </p>
               <p>
-                [Placeholder bio paragraph.] My background spans startups and
-                larger product orgs, which taught me to balance moving fast with
-                building things that don't fall over. I'm currently based in
-                [City, Country] and open to senior IC or team lead roles, remote
-                or hybrid.
+                With 20+ production apps shipped across iOS and Android, I
+                combine strong hands-on engineering with the leadership and
+                communication skills to keep teams unblocked and shipping
+                consistently. I'm currently deepening expertise in AI-powered
+                mobile experiences and open to senior IC and tech lead roles —
+                remote, hybrid, or onsite.
               </p>
             </div>
             <div class="principles reveal-right stagger-children">
@@ -1716,78 +1748,77 @@
             <div class="eyebrow">git log --graph</div>
             <h2>Experience</h2>
             <p>
-              Career history, most recent first. Replace companies, dates, and
-              bullets with your own.
+              5+ years building and leading mobile engineering teams — from MVP
+              through App Store &amp; Play Store deployment.
             </p>
           </div>
           <div class="git-log reveal stagger-children">
             <div class="commit current">
               <div class="commit-head">
                 <span class="role"
-                  >Senior React Native Engineer, Team Lead</span
+                  >Senior React Native Developer (Team Lead)</span
                 >
-                <span class="co">@ Company D</span>
-                <span class="dates">2023 — Present</span>
+                <span class="co">@ GTechSources</span>
+                <span class="dates">Apr 2023 - Present</span>
               </div>
               <ul>
                 <li>
-                  Lead a team of 6 engineers building [Product], a React Native
-                  app with [X]M+ downloads across iOS and Android.
+                  Aligned cross-functional teams on technical requirements and
+                  project milestones by facilitating requirement gathering
+                  sessions, leading to a 15% reduction in scope creep.
                 </li>
                 <li>
-                  Own architecture decisions for the app's native bridge layer,
-                  cutting crash rate by [X]% after a module rewrite.
+                  Partnered with 5+ cross-functional Agile teams, including
+                  developers, testers, and stakeholders, ensuring seamless
+                  communication and the on-time delivery of critical mobile
+                  applications.
                 </li>
                 <li>
-                  Run hiring, onboarding, and quarterly growth planning for the
-                  mobile team.
+                  Developed and deployed scalable backend services using
+                  Node.js, Express.js, MongoDB, and PostgreSQL, building secure
+                  RESTful APIs, optimizing database performance, integrating
+                  third-party services, and managing production deployments to
+                  support reliable, high-performance mobile applications.
+                </li>
+                <li>
+                  Responsible for integrating and maintaining core mobile
+                  application functionalities and background services, including
+                  CI/CD pipelines, real-time chat, navigation and mapping
+                  services (MapBox, Google Maps), push notifications,
+                  Localization, OTA updates, Google AdMob, Firebase services
+                  (Cloud Functions, Google Analytics, Firestore, Storage), and
+                  real-time voice/video calling solutions using Agora.
+                </li>
+                <li>
+                  Leveraged AI-powered development tools, including Cursor and
+                  Antigravity, to accelerate software development workflows,
+                  improve code quality, and enhance productivity by up to 10x.
                 </li>
               </ul>
             </div>
             <div class="commit">
               <div class="commit-head">
-                <span class="role">Senior React Native Engineer</span>
-                <span class="co">@ Company C</span>
-                <span class="dates">2021 — 2023</span>
+                <span class="role">React &amp; React Native Developer</span>
+                <span class="co">@ Enigmatix</span>
+                <span class="dates">Sep 2021 - Mar 2023</span>
               </div>
               <ul>
                 <li>
-                  Migrated a legacy hybrid app to React Native, reducing release
-                  cycle time from [X] weeks to [X] days.
+                  Developed responsive, pixel-perfect UIs using React and React
+                  Native with smooth cross-platform performance.
                 </li>
                 <li>
-                  Introduced automated E2E testing with Detox, catching
-                  regressions before they reached production.
-                </li>
-              </ul>
-            </div>
-            <div class="commit">
-              <div class="commit-head">
-                <span class="role">React Native Engineer</span>
-                <span class="co">@ Company B</span>
-                <span class="dates">2019 — 2021</span>
-              </div>
-              <ul>
-                <li>
-                  Built and shipped [Feature/Product], one of the team's top
-                  revenue-driving features.
+                  Integrated RESTful APIs and optimized app performance for
+                  speed, scalability, and responsiveness.
                 </li>
                 <li>
-                  Wrote and maintained shared native modules used across three
-                  internal apps.
+                  Collaborated with cross-functional teams to deliver features
+                  aligned with client needs and user expectations.
                 </li>
-              </ul>
-            </div>
-            <div class="commit">
-              <div class="commit-head">
-                <span class="role">Mobile Developer (iOS)</span>
-                <span class="co">@ Company A</span>
-                <span class="dates">2017 — 2019</span>
-              </div>
-              <ul>
                 <li>
-                  Started in native iOS (Swift), building and maintaining [App
-                  Name] for [X] users.
+                  Successfully deployed 15+ mobile applications on the Google
+                  Play and Apple App Store while ensuring full compliance with
+                  platform policies, review guidelines, and security standards.
                 </li>
               </ul>
             </div>
@@ -1802,8 +1833,8 @@
             <div class="eyebrow">package.json</div>
             <h2>Skills &amp; tooling</h2>
             <p>
-              Grouped the way a dependency tree would be — swap in whatever
-              reflects your actual stack.
+              Full-stack mobile expertise from device to deployment — the
+              technologies Abdul uses to ship at scale.
             </p>
           </div>
           <div class="pkg reveal-scale">
@@ -1814,38 +1845,77 @@
             </div>
             <div class="pkg-body">
               <div>
-                <span class="pkg-key">"core"</span
+                <span class="pkg-key">"mobile"</span
                 ><span class="pkg-punc">:</span>
               </div>
               <div class="skill-tags">
-                <span>React Native</span><span>TypeScript</span
-                ><span>Redux Toolkit</span><span>React Navigation</span
-                ><span>React Query</span>
+                <span>React Native</span><span>Expo</span><span>TypeScript</span
+                ><span>JavaScript</span><span>Native Module Bridging</span
+                ><span>Xcode</span><span>Android Studio</span>
               </div>
               <div>
-                <span class="pkg-key">"native"</span
+                <span class="pkg-key">"state_management"</span
                 ><span class="pkg-punc">:</span>
               </div>
               <div class="skill-tags">
-                <span>Swift</span><span>Kotlin</span><span>Native Modules</span
-                ><span>Turbo Modules</span><span>Xcode / Android Studio</span>
+                <span>Redux Toolkit</span><span>Redux Saga</span
+                ><span>React Context API</span>
+              </div>
+              <div>
+                <span class="pkg-key">"backend"</span
+                ><span class="pkg-punc">:</span>
+              </div>
+              <div class="skill-tags">
+                <span>Node.js</span><span>Express.js</span><span>FastAPI</span
+                ><span>REST API</span><span>GraphQL</span>
+              </div>
+              <div>
+                <span class="pkg-key">"database"</span
+                ><span class="pkg-punc">:</span>
+              </div>
+              <div class="skill-tags">
+                <span>MongoDB</span><span>PostgreSQL</span><span>Firebase</span>
+              </div>
+              <div>
+                <span class="pkg-key">"ai_tools"</span
+                ><span class="pkg-punc">:</span>
+              </div>
+              <div class="skill-tags">
+                <span>ChatGPT API</span><span>Meta Llama</span
+                ><span>On-device ML</span><span>OpenAI</span
+                ><span>Claude Code</span><span>Antigravity IDE</span
+                ><span>Cursor IDE</span>
+              </div>
+              <div>
+                <span class="pkg-key">"cloud_devops"</span
+                ><span class="pkg-punc">:</span>
+              </div>
+              <div class="skill-tags">
+                <span>GitHub Actions</span><span>CI/CD</span><span>Vercel</span
+                ><span>Railway</span><span>Amazon S3</span
+                ><span>Firebase Cloud Functions</span><span>Bitbucket</span>
+              </div>
+              <div>
+                <span class="pkg-key">"mobile_expertise"</span
+                ><span class="pkg-punc">:</span>
+              </div>
+              <div class="skill-tags">
+                <span>Push Notifications</span><span>Universal Links</span
+                ><span>Deep Linking</span><span>Localization (i18n)</span
+                ><span>Dynamic Themes</span><span>Offline-First</span
+                ><span>Performance Optimization</span><span>Google Maps</span
+                ><span>Mapbox</span><span>Agora (Video/Voice)</span
+                ><span>App Store Deployment</span>
               </div>
               <div>
                 <span class="pkg-key">"leadership"</span
                 ><span class="pkg-punc">:</span>
               </div>
               <div class="skill-tags">
-                <span>Code Review</span><span>Sprint Planning</span
-                ><span>1:1 Mentorship</span><span>Hiring</span
-                ><span>Roadmapping</span>
-              </div>
-              <div>
-                <span class="pkg-key">"tooling"</span
-                ><span class="pkg-punc">:</span>
-              </div>
-              <div class="skill-tags">
-                <span>Fastlane</span><span>CI/CD</span><span>Detox</span
-                ><span>Sentry</span><span>Firebase</span>
+                <span>Tech Lead</span><span>Sprint Planning</span
+                ><span>Code Review</span><span>Daily Standups</span
+                ><span>Cross-functional Collaboration</span><span>Jira</span
+                ><span>ClickUp</span>
               </div>
             </div>
           </div>
@@ -1859,8 +1929,8 @@
             <div class="eyebrow">Featured work</div>
             <h2>Selected projects</h2>
             <p>
-              Replace with three real products — link out to case studies, App
-              Store listings, or GitHub where possible.
+              20+ production apps shipped across iOS and Android — from MVP
+              through App Store &amp; Play Store deployment.
             </p>
           </div>
           <div class="projects-grid reveal stagger-children">
@@ -1868,41 +1938,53 @@
               <div class="mini-phone">
                 <div class="s"><i></i><i></i></div>
               </div>
-              <h3>App One</h3>
+              <h3>AI-Powered Mobile App</h3>
               <p>
-                [One-line description of the product and your role building it.]
+                Cross-platform app with ChatGPT API and Meta Llama integration,
+                delivering on-device AI features with offline-first
+                architecture.
               </p>
               <div class="project-tags">
                 <span>React Native</span><span>TypeScript</span
-                ><span>Native Modules</span>
+                ><span>ChatGPT API</span><span>Meta Llama</span>
               </div>
-              <div class="project-impact">Impact: [X]M+ downloads · 4.8★</div>
+              <div class="project-impact">
+                AI-first · iOS &amp; Android · Production
+              </div>
             </div>
             <div class="project-card">
               <div class="mini-phone">
                 <div class="s"><i></i><i></i></div>
               </div>
-              <h3>App Two</h3>
+              <h3>Real-Time Social Platform</h3>
               <p>
-                [One-line description of the product and your role building it.]
+                Feature-rich social app with live chat, voice &amp; video
+                calling via Agora, and real-time Firebase data synchronisation.
               </p>
               <div class="project-tags">
-                <span>React Native</span><span>GraphQL</span><span>CI/CD</span>
+                <span>React Native</span><span>Agora</span><span>Firebase</span
+                ><span>Redux Saga</span>
               </div>
-              <div class="project-impact">Impact: cut release time by [X]%</div>
+              <div class="project-impact">
+                Real-time chat &amp; video · Production
+              </div>
             </div>
             <div class="project-card">
               <div class="mini-phone">
                 <div class="s"><i></i><i></i></div>
               </div>
-              <h3>App Three</h3>
+              <h3>Location-Based App</h3>
               <p>
-                [One-line description of the product and your role building it.]
+                Maps-driven app with Mapbox &amp; Google Maps integration,
+                universal links, deep linking, and push notification support.
               </p>
               <div class="project-tags">
-                <span>React Native</span><span>Redux</span><span>Detox</span>
+                <span>React Native</span><span>Mapbox</span
+                ><span>Google Maps</span><span>Node.js</span>
               </div>
-              <div class="project-impact">Impact: [X]% crash-free sessions</div>
+              <div class="project-impact">
+                20+ apps shipped · App Store &amp; Play Store
+              </div>
             </div>
           </div>
         </div>
@@ -1918,17 +2000,30 @@
           <div class="testimonials reveal stagger-children">
             <div class="quote">
               <p>
-                "[Placeholder quote about working with you — mentorship style,
-                technical judgment, or delivery under pressure.]"
+                "I am pleased to recommend Abdul Ghafoor for his exceptional
+                capabilities as a Senior Software Engineer. Abdul has
+                consistently demonstrated outstanding technical expertise,
+                professionalism, and dedication in every project. He is
+                particularly skilled at solving complex problems and delivering
+                scalable software solutions. Beyond his technical strengths,
+                Abdul is a reliable team player, an effective communicator, and
+                takes ownership of his work while consistently delivering
+                results under tight deadlines. I highly recommend Abdul Ghafoor
+                for any Senior Software Engineering role."
               </p>
-              <div class="attr">Name, Title @ Company</div>
+              <div class="attr">Imran Munir Alvi · CTO · GTechSources</div>
             </div>
             <div class="quote">
               <p>
-                "[Placeholder quote from a report or peer about your leadership
-                or code quality.]"
+                "I had the pleasure of working with Abdul Ghafoor, during his
+                time as a Senior Application Developer. He consistently
+                delivered high-quality work with speed and efficiency. In
+                addition to his professional strengths, he is well-mannered. He
+                maintains a positive attitude and collaborates effectively with
+                colleagues. I confidently recommend him for any role requiring a
+                skilled and dependable application developer."
               </p>
-              <div class="attr">Name, Title @ Company</div>
+              <div class="attr">Azmat Mumtaz · HR Manager · GTechSources</div>
             </div>
           </div>
         </div>
@@ -1940,18 +2035,34 @@
           <div class="eyebrow" style="justify-content: center">
             Get in touch
           </div>
-          <h2>Let's build something reliable.</h2>
+          <h2>Let's build something great together.</h2>
           <p>
-            Open to senior React Native and team lead roles. Reach out directly
-            or find me on the links below.
+            Open to senior React Native and tech lead roles — remote, hybrid, or
+            onsite. Reach out directly or find me on the links below.
           </p>
           <div class="contact-links">
-            <a href="mailto:jordan.ellis@example.com" class="btn btn-primary"
-              >jordan.ellis@example.com</a
+            <a href="mailto:abdulghafoor1525@gmail.com" class="btn btn-primary"
+              >abdulghafoor1525@gmail.com</a
             >
-            <a href="#" class="btn btn-ghost">GitHub ↗</a>
-            <a href="#" class="btn btn-ghost">LinkedIn ↗</a>
-            <a href="#" class="btn btn-ghost">Resume ↓</a>
+            <a
+              href="https://github.com/jamaghafoor"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-ghost"
+              >GitHub ↗</a
+            >
+            <a
+              href="https://www.linkedin.com/in/jam-abdul-ghafoor/"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-ghost"
+              >LinkedIn ↗</a
+            >
+            <a
+              href="https://drive.google.com/uc?export=download&id=1iRBAV86xoRPTBUvTFAPPfF95EZIfN04h"
+              class="btn btn-ghost resume-btn"
+              >Resume ↓</a
+            >
           </div>
         </div>
       </section>
@@ -1959,8 +2070,8 @@
 
     <footer>
       <div class="wrap">
-        © <span id="year"></span> Jordan Ellis — built with React Native in
-        mind.
+        © <span id="year"></span> Abdul Ghafoor — Senior Software Engineer &amp;
+        Mobile Tech Lead.
       </div>
     </footer>
 
@@ -2348,6 +2459,35 @@
         { threshold: 0.3, rootMargin: "-80px 0px -40% 0px" },
       );
       sections.forEach((s) => navIO.observe(s));
+
+      // ============================================
+      // RESUME DOWNLOAD LOADER
+      // ============================================
+      const resumeBtns = document.querySelectorAll(".resume-btn");
+      resumeBtns.forEach((btn) => {
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          const originalContent = this.innerHTML;
+          const href = this.getAttribute("href");
+
+          // Show loader
+          this.classList.add("loading");
+          this.innerHTML = '<span class="spinner"></span> Downloading...';
+
+          // Trigger download
+          const link = document.createElement("a");
+          link.href = href;
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+
+          // Revert button state after 3 seconds
+          setTimeout(() => {
+            this.innerHTML = originalContent;
+            this.classList.remove("loading");
+          }, 3000);
+        });
+      });
     </script>
   </body>
 </html>
