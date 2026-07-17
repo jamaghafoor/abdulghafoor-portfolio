@@ -2,6 +2,8 @@
 
 A sleek, modern, single-page React portfolio with a "transmission" and oscilloscope aesthetic. Built with React, Vite, Framer Motion, and Tailwind CSS. The design focuses on precise, mechanical motion, void backgrounds (`#0a0a0c`), and phosphor green (`#39ff88`) accents, steering clear of generic web patterns.
 
+**[🚀 View Live Portfolio](https://abdulghafoor-portfolio.vercel.app/)**
+
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=flat-square&logo=vite&logoColor=FFD62E)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
